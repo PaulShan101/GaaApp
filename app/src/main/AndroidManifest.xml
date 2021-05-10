@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gaaapp">
+
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:name=".StartPage"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Home"></activity>
+        <activity android:name=".Firebase.AddActivity" />
+        <activity android:name=".Splash.MainSplash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Firebase.MainActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".Fragments.MainFragment"
+            android:screenOrientation="portrait"/>
+
+
+        <activity android:name=".Lists.WinnersList"
+            android:screenOrientation="portrait"/>
+
+
+
+        <activity android:name=".Lists.MainGaaList"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".Quiz.MainQuizActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".General.AboutUs"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".Quiz.MainActivity2"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".Login"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".SignUp"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".Firebase.Upload"
+            android:screenOrientation="portrait"/>
+
+
+        <activity android:name=".HistoryMain"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".History1"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".Firebase.ModifyActivity"
+            android:screenOrientation="portrait"/>
+
+
+
+        <activity android:name=".Firebase.MainPics"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".History2"
+            android:screenOrientation="portrait"/>
+
+
+
+
+
+    </application>
+
+
+
+</manifest>

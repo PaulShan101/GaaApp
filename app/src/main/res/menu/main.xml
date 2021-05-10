@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:id="@+id/homepage"
+        android:title="@string/HOMEPAGE" />
+        <item
+            android:id="@+id/list1"
+            android:title="@string/listpage" />
+        <item
+            android:id="@+id/quiz1"
+            android:title="@string/quizpage" />
+
+    <item
+        android:id="@+id/nav_fragment"
+        android:title="FACTS" />
+        <item
+            android:id="@+id/aboutus1"
+            android:title="@string/aboutuspage" />
+    <item
+        android:id="@+id/signup1"
+        android:title="@string/SIGNUP" />
+    <item
+        android:id="@+id/login1"
+        android:title="@string/LOGIN" />
+
+    <item
+        android:id="@+id/winlist"
+        android:title="@string/WINNERSLIST" />
+
+
+</menu>
+
+
+

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "21774133009",
+    "firebase_url": "https://gaaapp-39941-default-rtdb.firebaseio.com",
+    "project_id": "gaaapp-39941",
+    "storage_bucket": "gaaapp-39941.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:21774133009:android:b90f1a4a1a462281a5ceb0",
+        "android_client_info": {
+          "package_name": "com.example.gaaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "21774133009-0nensq3l9gl6frvl71ah92mrdr744dsi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB82M-LdnYNiQwBrTps85bomfDM5SmRNvw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "21774133009-0nensq3l9gl6frvl71ah92mrdr744dsi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">GaaApp</string>
+
+    <string name="enter_name">Name</string>
+    <string name="add_record">Add Record</string>
+    <string name="btn_update">Update</string>
+    <string name="btn_delete">Delete</string>
+    <string name="empty_list_text">No records found</string>
+    <string name="enter_address">Address</string>
+    <string name="title_activity_add_employee">AddEmployeeActivity</string>
+    <string name="enter_score">Score</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="menu_send">Send</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="menu_share">ABOUT US</string>
+    <string name="menusend">MAIN QUIZ</string>
+    <string name="CountyList">LIST OF COUNTIES</string>
+    <string name="nav_email_text">voteforhomer@android.com</string>
+    <string name="listpage">LIST OF COUNTIES</string>
+    <string name="quizpage">QUIZ</string>
+    <string name="aboutuspage">ABOUT US</string>
+    <string name="nav_header_title">headertitle</string>
+    <string name="nav_header_subtitle">subtitle</string>
+    <string name="Facts">FACTS</string>
+    <string name="home">Home</string>
+    <string name="goals1">Hurling</string>
+    <string name="history1">Football</string>
+    <string name="signUp">SIGN UP</string>
+    <string name="Login">LOGIN</string>
+    <string name="HOMEPAGE">HOMEPAGE</string>
+    <string name="SIGNUP">SIGN UP</string>
+    <string name="LOGIN">LOGIN</string>
+    <string name="hurlingtop"> <br>
+         1	Henry Shefflin Kilkenny 28	485	569	71	1999–2014
+    </br>\n
+        <br> 2	Joe Canning	Galway	27	474	555	60	2008–present
+        </br>\n
+                             <br> 3	Patrick Horgan	Cork	23	428	497	60	2008–present	</br>\n
+                           <br>   4	T. J. Reid	Kilkenny	25	375	447	63	2008–present	</br>\n
+                           <br>   5	Eddie Keher	Kilkenny	35	336	441	50	1959–1977	</br>\n
+                           <br>   6	Eoin Kelly	Tipperary	21	369	432	63	2000–2014	</br>\n
+                           <br>   7	Séamus Callanan	Tipp	36	219	327	58	2008–present	</br>\n
+                           <br>   8	Christy Ring	Cork	33	208	307	65	1940–1963	</br>\n
+                           <br>   9	D. J. Carey	Kilkenny	33	188	287	57	1989–2005	</br>\n
+                           <br>  10	Shane Dooley	Offaly	20	218	278	42	2008–present	</br></string>
+    <string name="stats">PLAYER, TEAM, GOALS, POINTS, TOTAL, GAMES, YEARS</string>
+    <string name="footballtop"><br>1	Cillian O’ Connor	Mayo	30	337	427	60	2011-</br>\n
+	 <br>2. Colm Cooper	Kerry	23	283	352	84	2002-2017	</br>\n
+     <br>3. Mikey Sheehy	Kerry	29	205	292	49	1973-1988</br>\n
+	 <br>4. John Doyle	Kildare	8	260	284	67	1999-2014	</br>\n
+	 <br>5. Dean Rock	Dublin	11	237	270	49	2013-	</br>\n
+	 <br>6. Pádraic Joyce	Galway	12	229	265	66	1997-2012	</br>\n
+	 <br>7. Bernard Brogan	Dublin	21	197	260	59	2006-2019	</br>\n
+	 <br>8. Conor McManus	Monaghan	8	231	255	57	2005-	</br>\n
+	 <br>9. Paddy Bradley	Derry	17	202	253	44	1999-2012	</br>\n
+	 <br>10. Steven McDonnell	Armagh	18	197	251	67	1999-2011	</br>\n</string>
+    <string name="FACTS">FACTS</string>
+    <string name="Gaa">The Gaelic Athletic Association is an Irish international amateur sporting and cultural organisation, focused primarily on promoting indigenous Gaelic games and pastimes, which include the traditional Irish sports of hurling, camogie, Gaelic football, Gaelic handball and rounders</string>
+    <string name="WINNERSLIST">WINNERS LIST</string>
+    <string name="all_time_winners">ALL TIME WINNERS</string>
+    <string name="contents">COUNTY,   ______     FOOTBALL, ______  HURLING</string>
+    <string name="open_google_map">Open Google Map</string>
+    <string name="login_with_google">Google</string>
+    <string name="Google">Google Sign In</string>
+    <string name="HISTORY">HISTORY</string>
+    <string name="FirstNameNew">TextView</string>
+    <string name="LastNameNew">TextView</string>
+    <string name="UserNameNew">TextView</string>
+    <string name="Profile">PROFILE</string>
+    <string name="Info">INFO</string>
+    <string name="update">Update</string>
+    <string name="Registration">REGISTRATION</string>
+    <string name="Login1">LOGIN1</string>
+    <string name="Profile1">PROFILE1</string>
+    <string name="voteforhomer" />
+    <string name="name_value">name value</string>
+    <string name="values_from_first_activity">Values from first activity</string>
+    <string name="back_to_first_activity">Back to first activity</string>
+    <string name="gender_value">gender value</string>
+    <string name="age_value">age value</string>
+    <string name="name">Name..</string>
+    <string name="age">Age..</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="submit">Submit</string>
+
+
+    <string name="Add">ADD</string>
+    <string name="modify">MODIFY</string>
+    <string name="user">User:-</string>
+    <string name="STORAGE">STORAGE</string>
+    <string name="UPLOAD">UPLOAD</string>
+    <string name="GALLERY">GALLERY</string>
+    <string name="quiz_leaderboard">QUIZ LEADERBOARD</string>
+
+
+</resources>

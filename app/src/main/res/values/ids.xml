@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="football1" type="id"/>
+    <item name="hurling1" type="id" />
+    <item name="home1" type="id" />
+
+
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Firebase.SignUp" android:background="#555">
+
+
+    <include
+        layout="@layout/app_bar_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30pt"
+        android:text="Create new Account"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/user_email" android:layout_centerInParent="true" android:background="#fff"
+        android:padding="10dp" android:hint="youremail@gmail.com"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/user_password" android:layout_below="@+id/user_email"
+        android:layout_centerHorizontal="true" android:layout_marginTop="10dp" android:background="#fff"
+        android:padding="10dp" android:hint="add you password"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <Button
+            android:text="Login"
+            android:onClick="LogIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/login_btn" android:layout_weight="1"
+            android:background="@drawable/button_custom" android:textColor="#fff"/>
+        <Button
+            android:text="Sign Up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/signup_btn" android:layout_weight="1"
+            android:background="@drawable/background_grad_one" android:textColor="#fff"/>
+    </LinearLayout>
+</RelativeLayout>

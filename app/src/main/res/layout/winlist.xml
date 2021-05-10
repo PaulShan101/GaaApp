@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background_grad_one"
+    android:textColor="#FFFFFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Lists.WinnersList"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/winbynum"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:paddingTop="10dp"
+        android:text="@string/all_time_winners"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/hurlfoot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+
+        android:text="@string/contents"
+        android:textAlignment="center" />
+
+    <SearchView
+        android:id="@+id/searchview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp">
+
+    </SearchView>
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+
+        android:textColor="#FFFFFF"
+       >
+
+    </ListView>
+
+</LinearLayout>
